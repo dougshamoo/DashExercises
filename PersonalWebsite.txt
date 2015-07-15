@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doug's Website</title>
+    <style>
+    body {
+      text-align: center;
+      background: url("http:/baconmockup.com/1200/1000");
+      background-size: cover;
+      background-position: center;
+      padding: 10px;
+      font-family: helvetica;
+    }
+    p {
+      color: white;
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    img {
+      border-radius: 200;
+      border: 10px;
+      border-color: black;
+    }
+    </style>
+  </head>
+  <body>
+    <img src="http://placecage.com/c/275/250">
+    <p>Who is this handsome man and aspiring developer? His name is Doug. Input your email to find out more.</p>
+    <input type="email" placeholder="Your email">
+    <input type="submit">
+  </body>
+</html>
